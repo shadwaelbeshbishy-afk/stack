@@ -48,6 +48,3 @@ st.markdown("### 📄 Current Text")
 st.write(st.session_state.text)
 
 
-with st.expander("⚙️ Stack Debug"):
-    st.write("Undo Stack:", st.session_state.undo_stack)
-    st.write("Redo Stack:", st.session_state.redo_stack)
